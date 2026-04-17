@@ -1,0 +1,15 @@
+streamlit
+fastapi
+uvicorn
+xgboost
+scikit-learn
+imbalanced-learn
+shap
+mlflow
+anthropic
+pandas
+numpy
+matplotlib
+faker
+requests
+pydantic
