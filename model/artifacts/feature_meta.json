@@ -1,0 +1,27 @@
+{
+  "feature_cols": [
+    "hours_since_last_login",
+    "km_from_last_login",
+    "velocity_kmh",
+    "velocity_kmh_log",
+    "impossible_velocity_flag",
+    "is_new_device",
+    "failed_attempts_1h",
+    "failed_attempts_6h",
+    "failed_attempts_24h",
+    "failed_attempts_ratio",
+    "session_duration_sec",
+    "actions_per_minute",
+    "time_to_first_action_sec",
+    "account_age_days",
+    "hour_deviation_from_mean",
+    "hour_of_day",
+    "day_of_week",
+    "is_weekend",
+    "is_night"
+  ],
+  "threshold": 0.5,
+  "optimal_f1_threshold": 0.6774423122406006,
+  "roc_auc": 0.9991312714776632,
+  "avg_precision": 0.974202035707326
+}
