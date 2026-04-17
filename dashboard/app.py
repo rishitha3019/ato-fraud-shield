@@ -7,7 +7,11 @@ import matplotlib
 matplotlib.use("Agg")
 
 ARTIFACTS_DIR = "model/artifacts"
-API_BASE = os.environ.get("API_BASE_URL", "http://localhost:8000")
+import streamlit as st
+try:
+    API_BASE = st.secrets["API_BASE_URL"]
+except:
+    API_BASE = os.environ.get("API_BASE_URL", "http://localhost:8000")
 
 st.set_page_config(page_title="Fraud Shield", layout="wide")
 
